@@ -10,7 +10,9 @@
 		604D614BC0A9795E8745A9B0 /* SplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604D60F95E53C9DFAF7C18BE /* SplashView.xib */; };
 		604D61540862FF391DCDA4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604D698C04A6FAE59E0543D5 /* Assets.xcassets */; };
 		604D6241993FE07923EB9FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D6603A041A52132EF0984 /* AppDelegate.swift */; };
+		604D6257C1B5BCF09555E964 /* ChooseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D6BF5C8338864A0D195A5 /* ChooseController.swift */; };
 		604D625F03103C2FCA429ACC /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D6E4668F758473206C84A /* PlayerController.swift */; };
+		604D63F986DCF0B4C8D3DDB8 /* QuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604D68C254D07F4FAEEF0275 /* QuestionView.xib */; };
 		604D6456CD57E15D4BE963D8 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D6E976CD24008A1155023 /* SplashController.swift */; };
 		604D668077F53D174396F13B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D6EFD31F04BBB96748967 /* Player.swift */; };
 		604D66882B34D7028CAD8D03 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 604D6F64C6D06C0677A2C939 /* .gitignore */; };
@@ -18,6 +20,8 @@
 		604D674A46F83C76AC278529 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D659D43CAA737B86E0D80 /* Question.swift */; };
 		604D675831E50BEB4BD1C4E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604D63EEF728FDDD0F5396DE /* LaunchScreen.storyboard */; };
 		604D6ACF7899CB5DD71539E0 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D61D91F36D9CB4A81EB41 /* Session.swift */; };
+		604D6AD8CC0B4E238D387B86 /* QuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D6E14016589DB3CD9D6DC /* QuestionController.swift */; };
+		604D6E92A4BD441AA2ECA6DC /* ChooseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604D6B079FBEA5F6055C692C /* ChooseView.xib */; };
 		604D6F59BDD9FA200C3B4316 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D659613356E3D0D8510D4 /* ViewExtension.swift */; };
 		BD80067C9E95F938F5EEF610 /* Pods_truthordare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53C61255A01C796A38BFA7B /* Pods_truthordare.framework */; };
 /* End PBXBuildFile section */
@@ -33,8 +37,12 @@
 		604D6603A041A52132EF0984 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		604D67B233C07D293394F3A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		604D6898F14F8401A90A6584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		604D68C254D07F4FAEEF0275 /* QuestionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionView.xib; sourceTree = "<group>"; };
 		604D698C04A6FAE59E0543D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		604D6B079FBEA5F6055C692C /* ChooseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseView.xib; sourceTree = "<group>"; };
 		604D6B60E73CA64EA89C0742 /* truthordare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = truthordare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		604D6BF5C8338864A0D195A5 /* ChooseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseController.swift; sourceTree = "<group>"; };
+		604D6E14016589DB3CD9D6DC /* QuestionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionController.swift; sourceTree = "<group>"; };
 		604D6E4668F758473206C84A /* PlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
 		604D6E976CD24008A1155023 /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
 		604D6EFD31F04BBB96748967 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -75,6 +83,8 @@
 			children = (
 				604D6E976CD24008A1155023 /* SplashController.swift */,
 				604D6E4668F758473206C84A /* PlayerController.swift */,
+				604D6BF5C8338864A0D195A5 /* ChooseController.swift */,
+				604D6E14016589DB3CD9D6DC /* QuestionController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -127,6 +137,8 @@
 			children = (
 				604D60F95E53C9DFAF7C18BE /* SplashView.xib */,
 				604D6437D639F99366E3BD62 /* PlayerView.xib */,
+				604D6B079FBEA5F6055C692C /* ChooseView.xib */,
+				604D68C254D07F4FAEEF0275 /* QuestionView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -207,6 +219,8 @@
 				604D614BC0A9795E8745A9B0 /* SplashView.xib in Resources */,
 				604D66B9351429B1E6F4AF92 /* PlayerView.xib in Resources */,
 				604D66882B34D7028CAD8D03 /* .gitignore in Resources */,
+				604D6E92A4BD441AA2ECA6DC /* ChooseView.xib in Resources */,
+				604D63F986DCF0B4C8D3DDB8 /* QuestionView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +294,8 @@
 				604D668077F53D174396F13B /* Player.swift in Sources */,
 				604D625F03103C2FCA429ACC /* PlayerController.swift in Sources */,
 				604D6F59BDD9FA200C3B4316 /* ViewExtension.swift in Sources */,
+				604D6257C1B5BCF09555E964 /* ChooseController.swift in Sources */,
+				604D6AD8CC0B4E238D387B86 /* QuestionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

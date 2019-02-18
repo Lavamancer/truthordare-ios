@@ -7,6 +7,8 @@ class Session: Codable {
 
     var questions: [Question] = []
     var players: [Player] = []
+    var currentPlayer: Player!
+    var currentQuestion: Question!
 
 
     static func getInstance() -> Session {
